@@ -1,0 +1,13 @@
+database:
+  dsn: "postgresql://tribaluser:-5nKXKRZ0LGV11hPO3JLRA@free-tier7.aws-eu-west-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&options=--cluster%3Duniversity-cluster-2638"
+  pool: 2
+
+server:
+  port: 8080
+
+kafka:
+  broker : "kafka:29092"
+  topic : "topic_transaction"
+  maxBytes: 30
+
+
